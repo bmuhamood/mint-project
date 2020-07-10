@@ -15,14 +15,11 @@ a {
     font-size: 13px;
     
 }
+
 p{
     margin: 0 0 0 0;
     font-size: 13px;
-    line-height: 0;
-}
-
-div {
-    border: 1px black solid;
+    line-height: 1;
 }
 
 .header {
