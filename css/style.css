@@ -1,14 +1,24 @@
 @media(min-width: 800px){
-
+body{
+    background: whitesmoke;
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 }
 .container{
     margin: 0 0 0 0;
-    background: whitesmoke;
+
 }
 
 a {
     text-decoration: none;
     color: #0077C5;
+    font-size: 13px;
+    
+}
+p{
+    margin: 0 0 0 0;
+    font-size: 13px;
+    line-height: 0;
 }
 
 div {
@@ -28,6 +38,7 @@ div {
 .navbar-text {
     align-self: center;
     text-align: right;
+    margin-top: 10px;
 }
 
 .navbar-btn {
@@ -37,7 +48,8 @@ div {
 .signin-btn {
     background-color: #0077C5;
     border-radius: 10%;
-    padding: 15px 30px;
+    padding: 10px 30px;
     box-sizing: border-box;
     margin-left: 10px;
+    color: white;
 }
