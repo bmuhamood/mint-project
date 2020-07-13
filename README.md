@@ -16,7 +16,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://bmuhamood.github.io/mint-project/)
 
 ## Authors
 
@@ -36,7 +36,7 @@ Additional description about the project and its features.
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page]().
+Feel free to check the [issues page](https://github.com/bmuhamood/mint-project/issues).
 
 ## Show your support
 
