@@ -12,11 +12,6 @@ fieldset {
     border: 0;
 }
 
-/*Header Section CSS*/
-.container{
-    margin: 0 0 0 0;
-}
-
 a {
     text-decoration: none;
     color: #0077C5;
@@ -30,12 +25,13 @@ p{
     line-height: 1;
 }
 
-.header {
-    display: flex;
-    justify-content: flex-end;
+/*Header Section CSS*/
+
+.container{
+    margin: 0 0 0 0;
 }
 
-.header-2{
+.header {
     display: flex;
     justify-content: flex-end;
 }
@@ -65,78 +61,14 @@ p{
 
 /*End of Header Section CSS*/
 
-
-
 /*Main Section CSS*/
-.logos{
+
+.main-section {
     display: flex;
-    list-style: none;
     justify-content: center;
-    margin-top: 0;
-    padding: 0;
+    align-items: center;
 }
 
- .main-section {
-     display: flex;
-     justify-content: center;
-     align-items: center;
- }
- .signup-form{
-    display: flex;
-    line-height: 35px;
-    padding: 30px 30px 30px 30px;
-    background-color: white;
-    border: 1px solid #c1c5c8;
-    width: 318px;
-    height: auto;
-    border-bottom: 0;
-    border-radius: 4px;
-}
-
- .submit-btn {
-     margin-top: 20px;
-     background-color: #0077C5;
-     box-sizing: border-box;
-     color: white;
-     font-size: 18px;
-     padding: 12px 12px;
-     border: 0;
-     border-radius: 4px;
-     width: 100%;
-
- }
-
- .input-text {
-     height: 24px;
-     width: 320px;
-     min-width: 160px;
-     padding-left: 8px;
-     padding-right: 37px;
-     padding-top: 12px;
-     border: 1px solid #c1c5c8;
-     border-radius: 4px;
- }
-
- .space {
-    margin-top: 30px;
-    
- }
-
- .space p {
-     font-size: 10px;
-     color: #505050;
- }
-
- .form-text {
-     align-items: center;
-     text-align: center;
- }
-
- .form-title {
-     font-size: 25px;
-     color: #505050;
-     margin-bottom: 20px;
- }
 .container-logo{
     display: flex;
     justify-content: center;
@@ -148,8 +80,76 @@ p{
     padding-bottom: 0;
     font-size: 35px;
 }
+
+.logos{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 0;
+    padding: 0;
+}
+
 .logos li{
     margin-right: 10px;
+}
+
+.signup-form{
+    display: flex;
+    line-height: 35px;
+    padding: 30px 30px 30px 30px;
+    background-color: white;
+    border: 1px solid #c1c5c8;
+    width: 318px;
+    height: auto;
+    border-bottom: 0;
+    border-radius: 4px;
+}
+
+.form-text {
+    align-items: center;
+    text-align: center;
+}
+
+.form-title {
+    font-size: 25px;
+    color: #505050;
+    margin-bottom: 20px;
+}
+
+.space {
+    margin-top: 30px;
+    
+ }
+
+.space p {
+    font-size: 10px;
+    color: #505050;
+}
+
+.input-text {
+    height: 24px;
+    width: 320px;
+    min-width: 160px;
+    padding-left: 8px;
+    padding-right: 37px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: 1px solid #c1c5c8;
+    border-radius: 4px;
+    font-size: 1.2em;
+    line-height: 1.2em;
+}
+
+.submit-btn {
+    margin-top: 20px;
+    background-color: #0077C5;
+    box-sizing: border-box;
+    color: white;
+    font-size: 18px;
+    padding: 12px 12px;
+    border: 0;
+    border-radius: 4px;
+    width: 100%;
 }
 
 .form-bottom-text {
@@ -162,9 +162,38 @@ p{
     color: #757575;
     line-height: 20px;
 }
+
+.captcha{
+    display: flex;
+    justify-content: center;
+}
+
+.form-footer{
+    background-color: whitesmoke;
+    border: 1px solid #c1c5c8;
+    border-top: 0;
+    width: 427px;
+    padding-top: 15px;
+    margin: 0;
+    height: 30px;
+    text-align: center;
+    
+}
+
+.form-footer p{
+    font-size: 10px;
+    color: #c1c5c8;
+}
+
+.form-footer p a{
+    font-size: 10px;
+
+}
+
 /*End of Main Section CSS*/
 
 /*Footer Section CSS*/
+
 .footer-links {
     display: flex;
     justify-content: center;
@@ -190,27 +219,5 @@ p{
     color: #505050;
     line-height: 20px;
 }
-.form-footer{
-    background-color: whitesmoke;
-    border: 1px solid #c1c5c8;
-    border-top: 0;
-    width: 427px;
-    padding-top: 15px;
-    margin: 0;
-    height: 30px;
-    text-align: center;
-    
-}
-.form-footer p{
-    font-size: 10px;
-    color: #c1c5c8;
-}
-.form-footer p a{
-    font-size: 10px;
 
-}
-.captcha{
-    display: flex;
-    justify-content: center;
-}
 /*End of Footer Section CSS*/
