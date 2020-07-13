@@ -89,10 +89,11 @@ p{
     padding: 20px 30px 20px 30px;
     background-color: white;
     border: 1px solid #c1c5c8;
-    width: 240px;
+    width: 320px;
     height: 80%;
     font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
- }
+    border-bottom: 0;
+}
 
  .submit-btn {
      margin-top: 20px;
@@ -182,6 +183,25 @@ p{
 }
 .form-footer{
     background-color: whitesmoke;
-    margin-top: 10px;
+    border: 1px solid #c1c5c8;
+    border-top: 0;
+    width: 427px;
+    padding-top: 15px;
+    margin: 0;
+    height: 30px;
+    text-align: center;
+    
+}
+.form-footer p{
+    font-size: 10px;
+    color: #c1c5c8;
+}
+.form-footer p a{
+    font-size: 10px;
+
+}
+.captcha{
+    display: flex;
+    justify-content: center;
 }
 /*End of Footer Section CSS*/
