@@ -68,7 +68,16 @@ p{
 
 /*End of Header Section CSS*/
 
+
+
 /*Main Section CSS*/
+.logos{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-top: 10px;
+}
+
  .main-section {
      display: flex;
      justify-content: center;
@@ -111,5 +120,18 @@ p{
      align-items: center;
      text-align: center;
  }
-
+.container-logo{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+  
+}
+.container-logo > h1{
+    color: #c1c5c8;
+    padding-bottom: 0;
+ 
+}
+.logos li{
+    margin-right: 10px;
+}
 /*End of Main Section CSS*/
