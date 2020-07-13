@@ -1,6 +1,6 @@
 @media(min-width: 800px){
     body{
-        background: whitesmoke;
+        background: #ECEEF1;
         font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-weight: normal;
     }
@@ -73,12 +73,12 @@ p{
     display: flex;
     justify-content: center;
     height: 60px;
+    margin-bottom: 25px;
 }
 
-.container-logo > p{
-    color: #505050;
-    padding-bottom: 0;
-    font-size: 35px;
+.img-scl {
+    width: 170px;
+    height: 85px;
     cursor: pointer;
 }
 
@@ -87,6 +87,7 @@ p{
     list-style: none;
     justify-content: center;
     margin-top: 0;
+    height: 30px;
     padding: 0;
 }
 
@@ -170,7 +171,7 @@ p{
 }
 
 .form-footer{
-    background-color: whitesmoke;
+    background-color: #ECEEF1;
     border: 1px solid #c1c5c8;
     border-top: 0;
     width: 427px;
@@ -183,7 +184,7 @@ p{
 
 .form-footer p{
     font-size: 10px;
-    color: #c1c5c8;
+    color: #8d9096;
 }
 
 .form-footer p a{
