@@ -4,8 +4,7 @@
         font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
     }
 }
-div {
-    border: 1px black solid;
+
 }
 /*Header Section CSS*/
 .container{
@@ -61,5 +60,11 @@ p{
  .main-section {
      display: flex;
      justify-content: center;
+     border: 2px solid black;
+     background-color: white;
+     align-items: center;
+ }
+ .signup-form{
+    display: block;
  }
 /*End of Main Section CSS*/
