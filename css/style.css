@@ -89,6 +89,8 @@ p{
     padding: 20px 30px 20px 30px;
     background-color: white;
     border: 1px solid #c1c5c8;
+    width: 240px;
+    height: 80%;
     font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
  }
 
@@ -116,22 +118,70 @@ p{
     margin-top: 30px;
  }
 
+ .space p {
+     font-size: 10px;
+     color: #505050;
+ }
+
  .form-text {
      align-items: center;
      text-align: center;
+ }
+
+ .form-title {
+     font-size: 25px;
+     color: #505050;
+     margin-bottom: 20px;
  }
 .container-logo{
     display: flex;
     justify-content: center;
     height: 60px;
-  
 }
-.container-logo > h1{
-    color: #c1c5c8;
+
+.container-logo > p{
+    color: #505050;
     padding-bottom: 0;
- 
+    font-size: 35px;
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .logos li{
     margin-right: 10px;
 }
+
+.form-bottom-text {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
 /*End of Main Section CSS*/
+
+/*Footer Section CSS*/
+.footer-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-size: 2rem;
+    height: 10px;
+}
+
+.footer-links li {
+    margin-left: 10px;
+}
+
+.footer-links li a {
+    color: #505050;
+}
+
+.footer-text {
+    text-align: center;
+}
+
+.footer-text p {
+    color: #505050;
+}
+/*End of Footer Section CSS*/
+
+div {
+    border: 1px black solid;
+}
