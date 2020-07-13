@@ -57,7 +57,7 @@ p{
 
 .signin-btn {
     background-color: #0077C5;
-    border-radius: 5%;
+    border-radius: 4px;
     padding: 10px 30px;
     box-sizing: border-box;
     margin-left: 10px;
@@ -75,7 +75,8 @@ p{
     display: flex;
     list-style: none;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 0;
+    padding: 0;
 }
 
  .main-section {
@@ -86,13 +87,14 @@ p{
  .signup-form{
     display: flex;
     line-height: 35px;
-    padding: 20px 30px 20px 30px;
+    padding: 30px 30px 30px 30px;
     background-color: white;
     border: 1px solid #c1c5c8;
-    width: 320px;
-    height: 80%;
+    width: 318px;
+    height: auto;
     font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
     border-bottom: 0;
+    border-radius: 4px;
 }
 
  .submit-btn {
@@ -103,7 +105,7 @@ p{
      font-size: 15px;
      padding: 10px 25px 10px 25px;
      border: 0;
-     border-radius: 5%;
+     border-radius: 4px;
  }
 
  .input-text {
@@ -113,6 +115,7 @@ p{
      padding-left: 8px;
      padding-right: 37px;
      border: 1px solid #c1c5c8;
+     border-radius: 4px;
  }
 
  .space {
@@ -155,6 +158,11 @@ p{
     width: 100%;
     text-align: center;
 }
+
+.form-bottom-text p {
+    color: #757575;
+    line-height: 20px;
+}
 /*End of Main Section CSS*/
 
 /*Footer Section CSS*/
@@ -164,6 +172,7 @@ p{
     list-style: none;
     font-size: 2rem;
     height: 10px;
+    padding: 0
 }
 
 .footer-links li {
@@ -180,6 +189,7 @@ p{
 
 .footer-text p {
     color: #505050;
+    line-height: 20px;
 }
 .form-footer{
     background-color: whitesmoke;
