@@ -126,6 +126,7 @@ p{
 .space p {
     font-size: 10px;
     color: #505050;
+    margin-top: 10px;
 }
 
 .input-text {
