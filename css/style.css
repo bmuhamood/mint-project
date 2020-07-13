@@ -1,12 +1,15 @@
 @media(min-width: 800px){
-body{
-    background: whitesmoke;
-    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    body{
+        background: whitesmoke;
+        font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
 }
+div {
+    border: 1px black solid;
 }
+/*Header Section CSS*/
 .container{
     margin: 0 0 0 0;
-
 }
 
 a {
@@ -49,4 +52,14 @@ p{
     box-sizing: border-box;
     margin-left: 10px;
     color: white;
+    margin-right: 20px;
 }
+
+/*End of Header Section CSS*/
+
+/*Main Section CSS*/
+ .main-section {
+     display: flex;
+     justify-content: center;
+ }
+/*End of Main Section CSS*/
