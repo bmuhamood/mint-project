@@ -180,4 +180,8 @@ p{
 .footer-text p {
     color: #505050;
 }
+.form-footer{
+    background-color: whitesmoke;
+    margin-top: 10px;
+}
 /*End of Footer Section CSS*/
