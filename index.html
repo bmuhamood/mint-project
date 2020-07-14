@@ -19,10 +19,10 @@
 
        <!--Header Section-->
         <header class="header">
-            <span class="navbar-text">
+            <div class="navbar-text">
                 <p>Already have an Intuit account?</p>
                 <a href="#">I forgot my User ID or Password</a> 
-            </span>
+            </div>
             <span class="main-section">
                 <a href="#"><button type="submit" class="signin-btn"><i class="fa fa-lock" aria-hidden="true">   Sign In</i></button></a>
             </span>
@@ -31,9 +31,9 @@
 
         <!--form section-->
         <main class="main-section">
-            <form >
+            <form>
                 <div class="container-logo">
-                    <img class="img-scl" src="images/intuit-logo.png">
+                    <img class="img-scl" src="images/intuit-logo.png" alt="logo">
                 </div>
                 <ul class="logos">
                         <li><a href="#"><img src="images/mint-logo.png"></a></li>
@@ -47,35 +47,36 @@
                         <a href="#">Learn more</a>
                     </fieldset>
                 <fieldset class="space">
-                    <label for Email>Email address</label>
+                    <label for="Email">Email address</label>
                     <div>
                         <input class="input-text" type="email">
                     </div>
                 </fieldset>
                 <fieldset class="space">
-                    <label for number>Phone (recommended)</label>
+                    <label for="number">Phone (recommended)</label>
                     <div>
                         <input class="input-text" type="tel">
                     </div>
                     <p>Standard call, messaging or data rates may apply.</p>
                 </fieldset>
                 <fieldset class="space">
-                    <label for password>Password</label>
+                    <label for="password">Password</label>
                     <div>
                         <input class="input-text" type="password">
                     </div>
                 </fieldset>
                 <span>
-                    <a href="#"><button class="submit-btn"><i class="fa fa-lock" aria-hidden="true"> Create Account</i></button></a>
+                    <a href="#"><button type="submit" class="submit-btn"><i class="fa fa-lock" aria-hidden="true"> Create Account</i></button></a>
                 </span>
                 <fieldset>
+            </fieldset>
                     <div class="form-bottom-text">
                         <p>
                             <i>By clicking Create account, you agree to our <br>
     <a href="#">Terms</a> and have read and acknowledge our <a href="#">Privacy <br> Statement</a>.</i>
                         </p>
                     </div>
-                </fieldset>                   
+                </fieldset>                 
             </form>
         </main>
         <div class="captcha">
@@ -83,6 +84,7 @@
                 <p>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use.</a> </p>
             </fieldset>
         </div>
+    
         <!--End of form section-->
 
         <!--Footer Section-->
