@@ -1,228 +1,225 @@
-@media(min-width: 800px){
-    body{
-        background: #ECEEF1;
-        font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-weight: normal;
-    }
+@media (min-width: 800px) {
+  body {
+    background: #eceef1;
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+  }
 }
 
 button {
-    color: white;
-    cursor: pointer;
+  color: white;
+  cursor: pointer;
 }
 
 fieldset {
-    margin: 0;
-    padding: 0;
-    border: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 a {
-    text-decoration: none;
-    color: #0077C5;
-    font-size: 13px;
-    
+  text-decoration: none;
+  color: #0077c5;
+  font-size: 13px;
 }
 
-p{
-    margin: 0 0 0 0;
-    font-size: 13px;
-    line-height: 1;
+p {
+  margin: 0 0 0 0;
+  font-size: 13px;
+  line-height: 1;
 }
 
-/*Header Section CSS*/
+/* Header Section CSS */
 
-.container{
-    margin: 0 0 0 0;
+.container {
+  margin: 0 0 0 0;
 }
 
 .header {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .navbar-text {
-    align-self: center;
-    text-align: right;
-    margin-top: 10px;
+  align-self: center;
+  text-align: right;
+  margin-top: 10px;
 }
 
 .signin-btn {
-    background-color: #0077C5;
-    border-radius: 4px;
-    padding: 10px 30px;
-    box-sizing: border-box;
-    margin-left: 10px;
-    color: white;
-    margin-right: 20px;
-    border: 0;
+  background-color: #0077c5;
+  border-radius: 4px;
+  padding: 10px 30px;
+  box-sizing: border-box;
+  margin-left: 10px;
+  color: white;
+  margin-right: 20px;
+  border: 0;
 }
 
-/*End of Header Section CSS*/
+/* End of Header Section CSS */
 
-/*Main Section CSS*/
+/* Main Section CSS */
 
 .main-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.container-logo{
-    display: flex;
-    justify-content: center;
-    height: 60px;
-    margin-bottom: 25px;
+.container-logo {
+  display: flex;
+  justify-content: center;
+  height: 60px;
+  margin-bottom: 25px;
 }
 
 .img-scl {
-    width: 170px;
-    height: 85px;
-    cursor: pointer;
+  width: 170px;
+  height: 85px;
+  cursor: pointer;
 }
 
-.logos{
-    display: flex;
-    list-style: none;
-    justify-content: center;
-    margin-top: 0;
-    height: 30px;
-    padding: 0;
+.logos {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin-top: 0;
+  height: 30px;
+  padding: 0;
 }
 
-.logos li{
-    margin-right: 10px;
+.logos li {
+  margin-right: 10px;
 }
 
-.signup-form{
-    display: flex;
-    line-height: 35px;
-    padding: 30px 30px 30px 30px;
-    background-color: white;
-    border: 1px solid #c1c5c8;
-    width: 318px;
-    height: auto;
-    border-bottom: 0;
-    border-radius: 4px;
+.signup-form {
+  display: flex;
+  line-height: 35px;
+  padding: 30px 30px 30px 30px;
+  background-color: white;
+  border: 1px solid #c1c5c8;
+  width: 318px;
+  height: auto;
+  border-bottom: 0;
+  border-radius: 4px;
 }
 
 .form-text {
-    align-items: center;
-    text-align: center;
+  align-items: center;
+  text-align: center;
 }
 
 .form-title {
-    font-size: 25px;
-    color: #505050;
-    margin-bottom: 20px;
+  font-size: 25px;
+  color: #505050;
+  margin-bottom: 20px;
 }
 
 .form-title-2 {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 .space {
-    margin-top: 30px;
- }
+  margin-top: 30px;
+}
 
 .space p {
-    font-size: 10px;
-    color: #505050;
-    margin-top: 10px;
+  font-size: 10px;
+  color: #505050;
+  margin-top: 10px;
 }
 
 .input-text {
-    height: 24px;
-    width: 320px;
-    min-width: 160px;
-    padding-left: 8px;
-    padding-right: 37px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    border: 1px solid #c1c5c8;
-    border-radius: 4px;
-    font-size: 1.2em;
-    line-height: 1.2em;
+  height: 24px;
+  width: 320px;
+  min-width: 160px;
+  padding-left: 8px;
+  padding-right: 37px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border: 1px solid #c1c5c8;
+  border-radius: 4px;
+  font-size: 1.2em;
+  line-height: 1.2em;
 }
 
 .submit-btn {
-    margin-top: 20px;
-    background-color: #0077C5;
-    box-sizing: border-box;
-    color: white;
-    font-size: 18px;
-    padding: 12px 12px;
-    border: 0;
-    border-radius: 4px;
-    width: 100%;
+  margin-top: 20px;
+  background-color: #0077c5;
+  box-sizing: border-box;
+  color: white;
+  font-size: 18px;
+  padding: 12px 12px;
+  border: 0;
+  border-radius: 4px;
+  width: 100%;
 }
 
 .form-bottom-text {
-    margin-top: 20px;
-    width: 100%;
-    text-align: center;
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
 }
 
 .form-bottom-text p {
-    color: #757575;
-    line-height: 20px;
+  color: #757575;
+  line-height: 20px;
 }
 
-.captcha{
-    display: flex;
-    justify-content: center;
+.captcha {
+  display: flex;
+  justify-content: center;
 }
 
-.form-footer{
-    background-color: #ECEEF1;
-    border: 1px solid #c1c5c8;
-    border-top: 0;
-    width: 427px;
-    padding-top: 15px;
-    margin: 0;
-    height: 30px;
-    text-align: center;
-    
+.form-footer {
+  background-color: #eceef1;
+  border: 1px solid #c1c5c8;
+  border-top: 0;
+  width: 427px;
+  padding-top: 15px;
+  margin: 0;
+  height: 30px;
+  text-align: center;    
 }
 
-.form-footer p{
-    font-size: 10px;
-    color: #8d9096;
+.form-footer p {
+  font-size: 10px;
+  color: #8d9096;
 }
 
-.form-footer p a{
-    font-size: 10px;
-
+.form-footer p a {
+  font-size: 10px;
 }
 
-/*End of Main Section CSS*/
+/* End of Main Section CSS */
 
-/*Footer Section CSS*/
+/* Footer Section CSS */
 
 .footer-links {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    font-size: 2rem;
-    height: 10px;
-    padding: 0
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  font-size: 2rem;
+  height: 10px;
+  padding: 0
 }
 
 .footer-links li {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .footer-links li a {
-    color: #505050;
+  color: #505050;
 }
 
 .footer-text {
-    text-align: center;
+  text-align: center;
 }
 
 .footer-text p {
-    color: #505050;
-    line-height: 20px;
+  color: #505050;
+  line-height: 20px;
 }
 
-/*End of Footer Section CSS*/
+/* End of Footer Section CSS */
