@@ -6,7 +6,7 @@
 
 ![screenshot](./images/example.png)
 
-Additional description about the project and its features.
+Responsive static sign up form which can be integrated to any backend.
 
 ## Built With
 
@@ -16,7 +16,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://bmuhamood.github.io/mint-project/)
+[Live Demo Link](https://rawcdn.githack.com/bmuhamood/mint-project/25814e918c37b4810c70bf5703a5a13fdde441b1/index.html)
 
 ## Authors
 
