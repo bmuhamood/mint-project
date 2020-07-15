@@ -16,7 +16,7 @@ Responsive static sign up form which can be integrated to any backend.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/bmuhamood/mint-project/25814e918c37b4810c70bf5703a5a13fdde441b1/index.html)
+[Live Demo Link](https://bmuhamood.github.io/mint-project/)
 
 ## Authors
 
